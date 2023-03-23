@@ -50,6 +50,7 @@
 
 ### Future Features <a name="key-features"></a>
 - **API Functionality**
+- **Events**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -73,7 +74,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:atok624/Maths-magician.git
+  git clone git@github.com:atok624/maths-magician.git
 ```
 
 <!--
