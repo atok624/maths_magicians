@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
-import Display from './display';
-import calculate from './logic/calculator';
-import operate from './logic/operate';
+import calculate from '../logic/calculate';
 
 function Calculator() {
+  const [state, setState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+  function onButtonClick(name) {
+    const result = calculate(state, name);
+    setState(result);
+  }
+
   return (
     <div className="calculator">
-      <Display />
+      <div className="display">
+        {state.next || state.total || state.operation || '0'}
+      </div>
       <div className="keypad">
         <button
           type="button"
