@@ -47,10 +47,15 @@
 
 ### Key Features <a name="key-features"></a>
 
-
 ### Future Features <a name="key-features"></a>
 - **API Functionality**
 - **Events**
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+Coming soon
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,6 +91,41 @@ Example:
  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Usage
+
+Run in development mode (Port 3000)
+
+```
+  npm run start
+```
+
+### Build for production
+
+```
+npm run build
+```
+
+### Run tests
+
+- ### Linter Tests
+
+To run tests, run the following command:
+
+To check for html errors run:
+```sh
+  npx hint .
+```
+To check for css errors run:
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
+To check for js errors run:
+```sh
+  npx eslint "**/*.{js,jsx}"
+```
+
+
 
 <!-- AUTHORS -->
 
