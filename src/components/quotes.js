@@ -10,7 +10,7 @@ const RandomQuote = () => {
       setIsLoading(true);
       try {
         const urlAPI = await fetch(
-          'https://api.api-ninjas.com/v1/quotes?category=hope',
+          'https://api.api-ninjas.com/v1/quotes?category=Hope',
           {
             headers: {
               'X-Api-Key': '+mr1FvMIt4HlhcKrCXdR0A==rs3ITjGGJPN7xufO',

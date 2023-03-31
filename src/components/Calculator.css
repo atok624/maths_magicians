@@ -1,10 +1,9 @@
 body {
+  text-align: center;
   height: 100vh;
+  width: 100%;
   background-color: #333;
   background-image: url("../img/diamond.png");
-  display: flex;
-  justify-content: center;
-  align-items: center;
   outline: 1px solid black;
 }
 
@@ -18,6 +17,31 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.Calculator {
+  display: flex;
+  justify-content: space-around;
+}
+
+.calcspan {
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.HomeContainer {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 25px;
+  color: whitesmoke;
+  border: 1px solid darkgreen;
+  box-shadow:
+    0 2px 2px 0 rgba(0, 0, 0, 0.5),
+    inset 0 -3px 6px -2px rgba(0, 0, 0, 0.3);
+}
+
+.aboutHome ul li {
+  list-style: none;
 }
 
 .display {
@@ -47,6 +71,8 @@ body {
   color: #ddd;
   border: darkolivegreen 1px solid;
   margin: 10px;
+  margin: 0 auto;
+  font-size: 25px;
   width: 400px;
   padding: 5px;
   display: flex;
