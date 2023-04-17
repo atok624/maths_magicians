@@ -32,7 +32,7 @@
 # 📖 Maths Magician<a name="about-project"></a>
 
 **Maths Magician** 
-- The Maths Magician is a web application app built using Bootstrap, HTML, CSS and JavaScript. It is a simple calculator for calculating
+- "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
