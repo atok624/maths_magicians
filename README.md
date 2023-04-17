@@ -36,12 +36,28 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+- Major Languages: JavaScript.
+- Libraries: React,
+- Technologies used: 
 
--   HTML
--   CSS
--   JAVASCRIPT
--   BOOTSTRAP
+``` bash
+- create-react-app tool
+- Git version control
+- ESLint code linting
+- StyleLint code linting
+- Prettier code formatting
+- Babel transpiling
+- Webpack bundling
+- netlify deployment
+```
+
+### Tech Stack <a name="tech-stack"></a>
+```md
+HTML
+CSS
+JAVASCRIPT
+BOOTSTRAP
+```
 
 <!-- Features -->
 
@@ -54,7 +70,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-[Live](https://math-magician-5re0.onrender.com/)
+[Live Demo](https://math-magician-5re0.onrender.com/)
 
 
 
@@ -67,15 +83,21 @@ Access the the online version of my application with this link
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
+To get a local copy up and running, follow the steps in Setup below.
 
 ### Prerequisites
-
-In order to run this project you need:
+```
+Basic knowledge of:
+- HTML
+- CSS
+- JavaScript
+- React.
+```
 
 ### Setup
+If you have git installed, you can clone the code to your machine, or download a ZIP of all the files directly.
 
-Clone this repository to your desired folder:
+[Download the ZIP from this location](https://codeload.github.com/atok624/maths_magicians/zip/refs/heads/master), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
 ```sh
   cd my-folder
@@ -92,7 +114,7 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Usage
+## Usage
 
 Run in development mode (Port 3000)
 
@@ -108,19 +130,21 @@ npm run build
 
 ### Run tests
 
-- ### Linter Tests
-
 To run tests, run the following command:
+```sh
+   npm test
+```
 
-To check for html errors run:
+### Linter Tests
+- ### To check for html errors run:
 ```sh
   npx hint .
 ```
-To check for css errors run:
+- ### To check for css errors run:
 ```sh
   npx stylelint "**/*.{css,scss}"
 ```
-To check for js errors run:
+- ### To check for js errors run:
 ```sh
   npx eslint "**/*.{js,jsx}"
 ```
@@ -148,6 +172,7 @@ To check for js errors run:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+#### Feel free to check the [issues page](https://github.com/atok624/maths_magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
