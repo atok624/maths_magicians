@@ -54,7 +54,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-[Live](https://math-calculator-hmpn.onrender.com)
+[Live](https://math-magician-5re0.onrender.com/)
 
 
 
